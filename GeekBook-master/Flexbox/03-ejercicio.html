@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100px;
+
+        }
+
+        .container ul {
+            display: flex;
+            flex-direction: row;
+            /*uno detras de otro*/
+            justify-content: space-between;
+            padding: 0px 20px 0px 20px;
+            height: 100px;
+            background-color: #000;
+        }
+
+        .container ul li {
+            list-style: none;
+        }
+
+        .container ul li a {
+            text-decoration: none;
+            color: #fff;
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Proyectos</a></li>
+            <li><a href="#">Equipo</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Container</a></li>
+        </ul>
+    </div>
+
+
+</body>
+
+</html>

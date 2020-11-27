@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container1 {
+            width: 500px;
+            height: 500px;
+            background-color: purple;
+            display: flex;
+            flex-grow: row;
+        }
+
+        .container2 {
+            display: block;
+            border: 4px;
+            width: 500px;
+            height: 500px;
+            background-color: purple;
+            display: flex;
+            flex-direction: column;
+            margin-left: 5px;
+        }
+
+        .hijos1 {
+            background: #00B285;
+            width: 20px;
+            color: #fff;
+            border: 1px solid #fff;
+            font-size: 40px;
+            text-align: center;
+            margin: 5px;
+        }
+
+        .hijos2 {
+
+            background: #00B285;
+            width: 100%;
+            color: #fff;
+            border: 1px solid #fff;
+            font-size: 40px;
+            text-align: left;
+
+        }
+
+        .contenedor-padre {
+            display: flex;
+            flex-direction: row;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="contenedor-padre"></div>
+
+    <h1>Vertical</h1>
+    <div id="container1">
+        <div class="hijos1">1</div>
+        <div class="hijos1">2</div>
+        <div class="hijos1">3</div>
+        <div class="hijos1">4</div>
+        <!--Vertical-->
+        <div class="hijos1">5</div>
+        <div class="hijos1">6</div>
+    </div>
+
+    <h1>Horizontal</h1>
+    <div id="container2">
+        <div class="hijos2">2</div>
+        <div class="hijos2">1</div>
+        <div class="hijos2">3</div>
+        <div class="hijos2">4</div>
+        <!--Horizontal-->
+        <div class="hijos2">5</div>
+        <div class="hijos2">6</div>
+    </div>
+</body>
+
+</html>
